@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    font-family: MuseoSansCyrl-500;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -135px;
+    padding: 0 0 135px;
+    box-shadow: 6px 0 15px -4px rgba(180, 180, 180, 0.8),-6px 0 8px -4px rgba(180, 180, 180, 0.8);
+    width: 1300px;
+}
+
+.btn-main {
+    background-color: #64B1B9;
+    border-color: #64B1B9;
+    color: #fff;
+}
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active,
+.btn-main.active {
+    background-color: #52a8b1;
+    border-color: #4999a1;
+    color: #fff;
+}
+.btn-main.disabled:hover,
+.btn-main.disabled:focus,
+.btn-main.disabled:active,
+.btn-main.disabled.active,
+.btn-main[disabled]:hover,
+.btn-main[disabled]:focus,
+.btn-main[disabled]:active,
+.btn-main[disabled].active,
+fieldset[disabled] .btn-main:hover,
+fieldset[disabled] .btn-main:focus,
+fieldset[disabled] .btn-main:active,
+fieldset[disabled] .btn-main.active {
+    background-color: #64B1B9;
+    border-color: #64B1B9;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer .container {
+    color: #000;
+    background: #FAFAFA;
+    border-bottom: 5px solid #64B1B9;
+    margin-bottom: 20px;
+    padding: 50px 150px;
+    border-top: 1px dashed #ccc;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+#items {
+    position: relative;
+    overflow: hidden;
+}
+
+#items .item {
+    height: 500px;
+    padding: 50px 0;
+    border-top: 1px dashed #64B1B9;
+}
+
+#items .item:first-child {
+    border: 0;
+}
+
+#items .container {
+    background: #FAFAFA;
+    border-top: 1px dashed #ccc;
+}
+
+.container {
+    max-width: none !important;
+    width: 1300px;
+    padding: 0 150px;
+}
+
+header .container {
+    background: #64B1B9;
+    color: #fff;
+}
+
+.lead-me .container {
+    color: #000;
+    background: #FAFAFA;
+    padding: 50px 150px;
+}
+
+.buttons .container {
+    padding: 50px 150px;
+    background: #F3F3F3;
+}
+
+.modal label {
+    font-weight: normal;
+}
+
+.modal .form-group .help-block {
+    font-size: 12px;
+}
+
+.alerts .container {
+    padding: 0;
+}
+
+.alerts .alert {
+    border: none;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
