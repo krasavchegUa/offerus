@@ -16,7 +16,8 @@ class ModalWidget extends Widget
 
     public function run()
     {
-        if(!$this->modal)  return;
+        if(!$this->modal)
+            return;
 
         $model = new \app\models\User(['scenario' => 'register']);
 
