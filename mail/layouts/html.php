@@ -16,7 +16,13 @@ use yii\helpers\Html;
 </head>
 <body>
     <?php $this->beginBody() ?>
-    <? print_r($this); ?>
+    <h1><?php echo Yii::t('app/user', 'mail title'); ?></h1>
+    <p><?php echo Yii::t('app/user', 'mail happy'); ?></p>
+    <p><?php echo Yii::t('app/user', 'Click <a href="{link}">here</a> to continue', [
+                'link' => \Yii::$app->urlManager->createAbsoluteUrl(['site/register',
+                            ['mail' => $this->params['model']->mail, 'authkey' => $this->params['model']->generateAuthKey()]
+                        ])
+            ]); ?></p>
     <?php $this->endBody() ?>
 </body>
 </html>

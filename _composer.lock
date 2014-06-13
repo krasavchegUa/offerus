@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7cfb3e6b25d5e16993addb2305b02540",
+    "hash": "a5c37a1d6262c1186e42706b0f46f7e6",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -111,99 +111,6 @@
             "time": "2013-11-30 08:25:19"
         },
         {
-            "name": "mpdf/mpdf",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/finwe/mpdf.git",
-                "reference": "1627f9e7d2ef0f635a886f611079216ed2929717"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/finwe/mpdf/zipball/1627f9e7d2ef0f635a886f611079216ed2929717",
-                "reference": "1627f9e7d2ef0f635a886f611079216ed2929717",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=4.3.10"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "mpdf.php",
-                    "classes"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-1.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Ian Back"
-                }
-            ],
-            "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
-            "homepage": "http://www.mpdf1.com/mpdf/index.php",
-            "keywords": [
-                "pdf",
-                "php",
-                "utf-8"
-            ],
-            "time": "2014-05-16 07:18:10"
-        },
-        {
-            "name": "robregonm/yii2-pdf",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robregonm/yii2-pdf.git",
-                "reference": "53c2b24325f02f49d1011c03d9e5f782fb0fe75d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robregonm/yii2-pdf/zipball/53c2b24325f02f49d1011c03d9e5f782fb0fe75d",
-                "reference": "53c2b24325f02f49d1011c03d9e5f782fb0fe75d",
-                "shasum": ""
-            },
-            "require": {
-                "mpdf/mpdf": "dev-master",
-                "php": ">=5.4.0",
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-composer": "dev-master"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "robregonm\\pdf\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "robregonm",
-                    "email": "robregonm@gmail.com",
-                    "homepage": "http://obregon.co",
-                    "role": "Author"
-                }
-            ],
-            "description": "Yii 2 PDF Response Formatter",
-            "keywords": [
-                "documents",
-                "formatter",
-                "pdf",
-                "reports",
-                "response",
-                "yii",
-                "yii2"
-            ],
-            "time": "2014-05-15 22:22:17"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
             "source": {
@@ -263,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "4aca4cf8661ab6e17ffd58820679a081db80ceaa"
+                "reference": "57c8982b1c5c7ab11700b611c2f3d437c5bc58e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/4aca4cf8661ab6e17ffd58820679a081db80ceaa",
-                "reference": "4aca4cf8661ab6e17ffd58820679a081db80ceaa",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/57c8982b1c5c7ab11700b611c2f3d437c5bc58e5",
+                "reference": "57c8982b1c5c7ab11700b611c2f3d437c5bc58e5",
                 "shasum": ""
             },
             "replace": {
@@ -306,7 +213,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-06-10 07:26:20"
+            "time": "2014-06-08 01:27:32"
         },
         {
             "name": "yiisoft/jquery",
@@ -363,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "3fa2374530fd1d2dabaf20c0a2f506965cc40a2c"
+                "reference": "8c7be6294629773d3246a64efe482e1f5c581cc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3fa2374530fd1d2dabaf20c0a2f506965cc40a2c",
-                "reference": "3fa2374530fd1d2dabaf20c0a2f506965cc40a2c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8c7be6294629773d3246a64efe482e1f5c581cc1",
+                "reference": "8c7be6294629773d3246a64efe482e1f5c581cc1",
                 "shasum": ""
             },
             "require": {
@@ -433,7 +340,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-06-10 14:13:56"
+            "time": "2014-06-08 08:14:42"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -441,12 +348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "844c1ec17edf735fe7f0c26648c3d03db89d48f1"
+                "reference": "2d0a88006954b24b89b28f5bc0a3e70db8b17360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/844c1ec17edf735fe7f0c26648c3d03db89d48f1",
-                "reference": "844c1ec17edf735fe7f0c26648c3d03db89d48f1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/2d0a88006954b24b89b28f5bc0a3e70db8b17360",
+                "reference": "2d0a88006954b24b89b28f5bc0a3e70db8b17360",
                 "shasum": ""
             },
             "require": {
@@ -476,7 +383,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-06-09 14:20:00"
+            "time": "2014-06-06 20:22:09"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -652,12 +559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "80bc02b9faa20cf7f3026bd376e7951b4189b39a"
+                "reference": "6b5fb0602542fd3ed49752b6c72ab24046eac03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/80bc02b9faa20cf7f3026bd376e7951b4189b39a",
-                "reference": "80bc02b9faa20cf7f3026bd376e7951b4189b39a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/6b5fb0602542fd3ed49752b6c72ab24046eac03e",
+                "reference": "6b5fb0602542fd3ed49752b6c72ab24046eac03e",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +595,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-06-09 13:17:54"
+            "time": "2014-06-07 23:20:57"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -696,12 +603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "85758952444fd62d74118f920e0735df1ba67385"
+                "reference": "075e213a872873377f1767dd619601e11ea12cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/85758952444fd62d74118f920e0735df1ba67385",
-                "reference": "85758952444fd62d74118f920e0735df1ba67385",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/075e213a872873377f1767dd619601e11ea12cfa",
+                "reference": "075e213a872873377f1767dd619601e11ea12cfa",
                 "shasum": ""
             },
             "require": {
@@ -733,17 +640,16 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-06-08 21:26:19"
+            "time": "2014-06-08 14:56:35"
         }
     ],
     "aliases": [
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "robregonm/yii2-pdf": 20,
-        "mpdf/mpdf": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": {
         "php": ">=5.4.0"
     },

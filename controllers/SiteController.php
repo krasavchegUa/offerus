@@ -98,4 +98,11 @@ class SiteController extends Controller
     {
 
     }
+
+    public function actionPdf()
+    {
+        Yii::$app->response->format = 'pdf';
+        $this->layout = '//pdf';
+        return $this->render('index', []);
+    }
 }

@@ -23,12 +23,16 @@ class ModalWidget extends Widget
 
         if ($model->load(Yii::$app->request->post())) {
             if ($model->save()) {
+                $view = Yii::$app->mail->getView();
+
+                $view->params =['model' => $model];
+
                 Yii::$app->mail->compose('layouts/html')
-                    ->setFrom('info@offerus.ru')
+                    ->setFrom('web@extrabrand.ru')
                     ->setTo($model->mail)
                     ->setSubject('Register')
-                    ->setHtmlBody($model->generateAuthKey())
                     ->send();
+
 
                 Yii::$app->session->setFlash('success', 'Model has been saved');
                 Yii::$app->view->context->refresh();

@@ -42,7 +42,7 @@ AppAsset::register($this);
                 <?php endif; ?>
             </div>
         </div>
-        <?php /*
+        <?php
             NavBar::begin([
                 'brandLabel' => 'My Company',
                 'brandUrl' => Yii::$app->homeUrl,
@@ -63,7 +63,7 @@ AppAsset::register($this);
                             'linkOptions' => ['data-method' => 'post']],
                 ],
             ]);
-            NavBar::end();*/
+            NavBar::end();
         ?>
          <?= $content ?>
 
